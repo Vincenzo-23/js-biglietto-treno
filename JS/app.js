@@ -32,7 +32,7 @@ else if (age >= 18 && age <= 65){
 
 // prezzo con sconto del 40% per gli over 65
 
-if(age > 65){
+else{
     discount = initialCost*0.40 //number
     finalCost = initialCost-discount //number
     console.log("Il costo del biglietto è di €" + finalCost.toFixed(2))
